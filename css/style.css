@@ -1,0 +1,97 @@
+/* General Page Styling */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0073e6;
+}
+
+/* Section Styling */
+section {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+/* Character Profile - Align Image to the Left of Name */
+.character-header {
+  display: flex;
+  align-items: center; /* Ensures the image and name are in the same row */
+  gap: 15px; /* Space between the image and name */
+}
+
+.character-header img {
+  width: 60px; /* Adjust as needed */
+  height: 60px;
+  border-radius: 50%; /* Ensures the image is circular */
+  object-fit: cover;
+}
+
+/* Character Section */
+.character {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Uniform Video Sizing */
+.character video {
+  width: 100%; /* Makes all videos take full width of the character section */
+  max-width: 500px; /* Limits the max width to avoid overly large videos */
+  height: auto; /* Keeps aspect ratio */
+  display: block;
+  margin: 10px auto; /* Centers the video */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666;
+}
