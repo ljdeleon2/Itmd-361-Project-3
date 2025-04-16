@@ -1,0 +1,36 @@
+/* Reset CSS */
+/* Removes all margin, padding, and border */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles */
+ol, ul {
+  list-style: none;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for headings and body text */
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: normal;
+}
+
+/* Ensure images and videos are responsive */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Reset button styles */
+button, input, textarea {
+  font: inherit;
+}
